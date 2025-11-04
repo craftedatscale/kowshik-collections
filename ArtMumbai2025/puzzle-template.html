@@ -2,8 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>IIIF Puzzles - 06/07</title>
-	
+    <title>Kowshik Family Collection - Art Mumbai - Puzzle Template</title>
+
+    <!-- http://gallica.bnf.fr/iiif/ark:/12148/btv1b8449043q/f67/825,1746,2372,1327/,550/0/native.jpg -->
 	<script>
 
         const PUZZLE_DIFFICULTY = 7;
@@ -26,7 +27,7 @@
         function init(){
             _img = new Image();
             _img.addEventListener('load',onImage,false);
-            _img.src = "http://gallica.bnf.fr/iiif/ark:/12148/btv1b8449043q/f67/825,1746,2372,1327/,550/0/native.jpg";
+            _img.src = "https://free.iiifhosting.com/iiif/f3f1412e34d6f46a258a5d72b276fa56ad60fb2e9f17f22022431b053f9889f1/";
         }
         function onImage(e){
             _pieceWidth = Math.floor(_img.width / PUZZLE_DIFFICULTY)
